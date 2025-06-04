@@ -23,7 +23,7 @@ class Ebook extends Livre {
     // Méthode bonus : emprunter le livre
     public function emprunter() {
         if ($this->estEmprunte) {
-            return "Erreur : L'ebook '{$this->getTitre()}' est déjà emprunté.";
+            return "Erreur : L'ebook '{$this->getTitre()}' est déja emprunté.";
         }
         $this->estEmprunte = true;
         return "Succès : L'ebook '{$this->getTitre()}' a été emprunté.";

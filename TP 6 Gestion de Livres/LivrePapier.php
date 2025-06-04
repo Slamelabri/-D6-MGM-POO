@@ -22,7 +22,7 @@ class LivrePapier extends Livre {
 
     public function emprunter() {
         if ($this->estEmprunte) {
-            return "Erreur : Le livre '{$this->getTitre()}' est déjà emprunté.";
+            return "Erreur : Le livre '{$this->getTitre()}' est déja emprunté.";
         }
         $this->estEmprunte = true;
         return "Succès : Le livre '{$this->getTitre()}' a été emprunté.";

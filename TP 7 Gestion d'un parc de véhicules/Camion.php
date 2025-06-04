@@ -24,7 +24,7 @@ class Camion extends Vehicule {
     public function charger($poids) {
         $poids = floatval($poids);
         if ($poids <= 0) {
-            return "Erreur : Le poids à charger doit être positif.";
+            return "Erreur : Le poids a charger doit être positif.";
         }
         if ($this->chargeActuelle + $poids > $this->poidsMax) {
             return "Erreur : La charge de {$poids} kg dépasse le poids maximum de {$this->poidsMax} kg.";

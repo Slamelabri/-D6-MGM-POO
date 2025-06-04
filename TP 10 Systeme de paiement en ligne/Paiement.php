@@ -9,7 +9,7 @@ abstract class Paiement {
 
  
     public function afficherMontant() {
-        return "Montant à payer : " . number_format($this->montant, 2) . " euros";
+        return "Montant a payer : " . number_format($this->montant, 2) . " euros";
     }
 
    
