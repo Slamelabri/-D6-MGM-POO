@@ -22,7 +22,7 @@ class VueListeChiens {
                 <thead>
                     <tr>
                         <th>Nom</th>
-                        <th>Âge</th>
+                        <th>age</th>
                         <th>Race</th>
                         <th>Actions</th>
                     </tr>

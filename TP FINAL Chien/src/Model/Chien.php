@@ -22,7 +22,7 @@ class Chien implements Animal {
 
     public function afficherDetails(): string {
         return "Nom : {$this->nom}<br>" .
-               "Âge : {$this->age} ans ({$this->calculerAgeHumain()} ans humains)<br>" .
+               "Age : {$this->age} ans ({$this->calculerAgeHumain()} ans humains)<br>" .
                "Race : {$this->race}<br>" .
                "Couleur : {$this->couleur}<br>" .
                "Sexe : {$this->sexe}<br>" .
